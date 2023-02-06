@@ -1,0 +1,9 @@
+res/
+audio/
+tles/
+images/
+queued_jobs
+noaa.tle
+weather.txt
+res
+.hidden

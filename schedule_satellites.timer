@@ -1,0 +1,9 @@
+[Unit]
+Description=Schedule NOAA satellite passes daily
+
+[Timer]
+OnCalendar=*-*-* 00:01:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
