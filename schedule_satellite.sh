@@ -27,7 +27,7 @@ do
 	start_timestamp=`echo ${PREDICTION_START} | cut -d " " -f 1`
 	capture_duration=`expr ${end_timestamp} - ${start_timestamp}`
 
-	if [ $MAX_ELEV -gt $min_elevation  ]
+	if [ $MAX_ELEV -ge $min_elevation  ]
 	then
 		date_string=`TZ=UTC date --date="@${start_timestamp}"`
 		local_date_string=`date --date="@${start_timestamp}" "+%H:%M %D"`
