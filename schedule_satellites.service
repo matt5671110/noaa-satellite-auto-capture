@@ -5,7 +5,4 @@ After=multi-user.target
 [Service]
 WorkingDirectory=/opt/schedule_satellites
 
-User=matt
-Group=matt
-
 ExecStart=/opt/schedule_satellites/schedule_all.sh
